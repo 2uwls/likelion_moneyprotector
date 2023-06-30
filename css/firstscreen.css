@@ -1,0 +1,239 @@
+*,
+/* .wrapper{
+  position: absolute;
+  top:20%;
+  left:40%;
+} */
+
+.background{
+  box-sizing: border-box;
+}
+.background {
+  background: rgba(26, 98, 0, 0.05);
+  width: 360px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.body {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+.logo {
+  width: 249px;
+  height: 85px;
+  position: absolute;
+  left: 63px;
+  top: 201px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 63px;
+  top: 302px;
+}
+.id {
+  flex-shrink: 0;
+  width: 234px;
+  height: 40px;
+  position: static;
+}
+.rectangle-128 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.7);
+  border-width: 1px;
+  width: 234px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.i-dtext {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1px;
+  top: 2px;
+}
+.id {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+}
+.password {
+  flex-shrink: 0;
+  width: 234px;
+  height: 40px;
+  position: static;
+}
+.password_text {
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 13px;
+  font-family: Inter;
+ 
+}
+.rectangle-129 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.7);
+  border-width: 1px;
+  width: 234px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 65px;
+}
+.password-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1px;
+  top: 67px;
+}
+.login-button {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-130 {
+  background: rgba(26, 98, 0, 0.9);
+  border-radius: 5px;
+  width: 234px;
+  height: 40px;
+  position: absolute;
+  left: 63px;
+  top: 440px;
+}
+.login1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 151px;
+  top: 442px;
+}
+.login_text {
+  color: white;
+  text-align: left;
+  font: 700 15px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.login2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 146px;
+  top: 512px;
+}
+.registration_text {
+color: #1A6200;
+font-size: 13px;
+font-family: Inter;
+font-weight: 700;
+}
+.question {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 181px;
+  position: absolute;
+  left: 94px;
+  top: 487px;
+}
+.question_text {
+  color: rgba(102, 102, 102, 0.7);
+  text-align: center;
+  font-size: 12px;
+  font-family: Inter;
+}
+.social-login-button {
+  width: 252px;
+  height: 69px;
+  position: absolute;
+  left: 56px;
+  top: 564px;
+}
+.naver {
+  border-radius: 50px;
+  width: 37.01px;
+  height: 36.84px;
+  position: absolute;
+  left: 55.22px;
+  top: 32.16px;
+}
+.kakao {
+  width: 37.01px;
+  height: 36.84px;
+  position: absolute;
+  left: 163.89px;
+  top: 33.16px;
+}
+.social-login {
+  position: absolute;
+  inset: 0;
+}
+.sns {
+  color: rgba(26, 98, 0, 0.7);
+  text-align: center;
+  font: 500 13px "Inter", sans-serif;
+  position: absolute;
+  left: 91.75px;
+  top: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-3 {
+  border-style: solid;
+  border-color: rgba(26, 98, 0, 0.7);
+  border-width: 1px 0 0 0;
+  width: 87.52px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 7.02px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-4 {
+  border-style: solid;
+  border-color: rgba(26, 98, 0, 0.7);
+  border-width: 1px 0 0 0;
+  width: 91.64px;
+  height: 0px;
+  position: absolute;
+  left: 160.36px;
+  top: 7.02px;
+}
+
+

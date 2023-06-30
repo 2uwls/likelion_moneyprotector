@@ -1,0 +1,338 @@
+*,
+
+
+.background{
+  box-sizing: border-box;
+}
+.background {
+  background: rgba(26, 98, 0, 0.05);
+  width: 360px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 142px;
+  top: 201px;
+}
+.registration {
+  color: #1a6200;
+  text-align: left;
+  font: 700 20px "Inter", sans-serif;
+  position: relative;
+}
+.id-text {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.6);
+  border-width: 1px;
+  padding: 9px 13px 9px 13px;
+  display: flex;
+  flex-direction: row;
+  gap: 126px;
+  align-items: center;
+  justify-content: center;
+  width: 239px;
+  height: 35px;
+  position: absolute;
+  left: 88px;
+  top: 253px;
+}
+.id {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nickname_text {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.6);
+  border-width: 1px;
+  padding: 9px 13px 9px 13px;
+  width: 239px;
+  height: 35px;
+  position: absolute;
+  left: 87px;
+  top: 415px;
+}
+.nickname {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fixed_name {
+  color: #1a6200;
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: absolute;
+  left: 201px;
+  top: 10px;
+}
+.email_text {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.6);
+  border-width: 1px;
+  padding: 9px 13px 9px 13px;
+  width: 239px;
+  height: 35px;
+  position: absolute;
+  left: 87px;
+  top: 518px;
+}
+.email {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.address {
+  color: #666666;
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: absolute;
+  left: 124px;
+  top: 9px;
+}
+.naver-com {
+  color: #666666;
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: absolute;
+  left: 166px;
+  top: 9px;
+}
+.polygon-4 {
+  position: absolute;
+  left: 164px;
+  top: 23px;
+  transform: translate(-9.33px, -7.5px);
+  overflow: visible;
+}
+.password {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.6);
+  border-width: 1px;
+  padding: 9px 13px 9px 13px;
+  display: flex;
+  flex-direction: row;
+  gap: 126px;
+  align-items: center;
+  justify-content: center;
+  width: 239px;
+  height: 35px;
+  position: absolute;
+  left: 88px;
+  top: 305px;
+}
+.enter_password{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 13px;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+}
+.pasword-check {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(217, 217, 217, 0.6);
+  border-width: 1px;
+  padding: 9px 13px 9px 13px;
+  display: flex;
+  flex-direction: row;
+  gap: 126px;
+  align-items: center;
+  justify-content: center;
+  width: 239px;
+  height: 35px;
+  position: absolute;
+  left: 87px;
+  top: 357px;
+}
+
+.reenter-password{
+color: rgba(0, 0, 0, 0.50);
+font-size: 13px;
+font-family: Inter;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex: 1 0 0;
+}
+
+.gender {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(214, 213, 213, 0.6);
+  border-width: 1.5px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 118px;
+  top: 473px;
+}
+.ellipse-2 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(214, 213, 213, 0.6);
+  border-width: 1.5px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 229.5px;
+  top: 474px;
+}
+.male {
+  color: #666666;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 145px;
+  top: 474px;
+}
+.female {
+  color: #666666;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 252.5px;
+  top: 474px;
+}
+.frame-68 {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 33px;
+  top: 263px;
+}
+.id_tag {
+  color: #000000;
+  text-align: left;
+  font: 700 12px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pw_tag {
+  color: #000000;
+  text-align: left;
+  font: 700 12px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkpw_tag {
+  color: #000000;
+  text-align: center;
+  font: 700 12px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nickname_tag {
+ color: #000;
+ font: 700 12px "Inter", sans-serif;
+ text-align: left;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+}
+
+.gender_tag{
+    color: #000;
+    font: 700 12px "Inter", sans-serif;
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email_tag{
+    color: #000;
+    font: 700 12px "Inter", sans-serif;
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.login-button {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-130 {
+  background: rgba(26, 98, 0, 0.9);
+  border-radius: 5px;
+  width: 234px;
+  height: 40px;
+  position: absolute;
+  left: 78px;
+  top: 583px;
+}
+.login-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 169px;
+  top: 585px;
+}
+.complete {
+  color: #ffffff;
+  text-align: left;
+  font: 700 15px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
